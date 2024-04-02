@@ -1,0 +1,53 @@
+.body {
+    display: flex;
+    margin: 0;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.image {
+    width: 100%; 
+    max-width: 250px; 
+    height: auto;
+    margin-left: 0; 
+    border-radius: 8px;
+}
+.detalhes {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    font-size: large;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin: auto; 
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    width: 80%;
+    text-align: justify;
+    gap: 20px;
+}
+.list-icon {
+    display: inline-block;
+    align-items: center;
+    width: 16px; 
+    height: 16px; 
+    background-image: url(https://cdn-icons-png.freepik.com/512/5290/5290982.png);
+    background-size: cover;
+    margin-right: 8px;
+  }
+
+

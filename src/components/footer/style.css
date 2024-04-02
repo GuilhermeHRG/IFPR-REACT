@@ -1,0 +1,36 @@
+
+
+.footer {
+    display: flex;
+    background-color: #333;
+    color: #fff;
+    padding: 20px; 
+    height: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    height: auto;
+}
+
+.dev {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://pbs.twimg.com/profile_images/618093943675170816/-MKRGfWn_400x400.png);
+    border-radius: 8%;
+    background-size: cover;
+    height: 30px;
+    width: 30px;
+}

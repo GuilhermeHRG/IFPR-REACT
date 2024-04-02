@@ -1,0 +1,58 @@
+.body {
+    display: flex;
+    margin: 0;
+    font-size: 58px;
+  }
+  
+  .headerMain {
+    display: flex;
+    justify-content: space-between;
+    position: fixed; /* Alteração aqui para fixar o header */
+    top: 0; 
+    left: 0;
+    right: 0;
+    z-index: 1000; /* Z-index acima de todos os outros elementos */
+    flex-direction: row;
+    gap: 20px;
+    width: 100%;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.9); /* Cor de fundo com opacidade */
+  }
+  
+  .headerContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: right;
+  }
+  
+  .logo {
+    background-image: url(https://pbs.twimg.com/profile_images/618093943675170816/-MKRGfWn_400x400.png);
+    border-radius: 8%;
+    background-size: cover;
+    height: 15px;
+    width: 15px;
+  }
+  
+  .link {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+    color: inherit;
+    font-size: 14px;
+    margin-right: 20px;
+  }
+  
+  .link:hover {
+    filter: drop-shadow(0 0 2em #76ff64aa);
+    transform: scale(0.9);
+    text-decoration: underline;
+  }
+  

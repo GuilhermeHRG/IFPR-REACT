@@ -1,0 +1,24 @@
+body{
+    display: flex;
+    margin: 0;
+}
+.title{
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.logosParceiros{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 4px;
+    gap: 20px;
+    width: 100%;
+    background-color: rgb(233, 231, 231);
+}
+img{
+    width: 220px;
+    height: 220px;
+    border-radius: 8px;
+}

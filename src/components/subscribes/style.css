@@ -1,0 +1,83 @@
+body {
+    display: flex;
+    margin: 0;
+}
+
+.mainSub {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.subscribe {
+    display: flex;
+    color: aliceblue;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: large;
+    padding: 8px;
+    width: 100%;
+    height: 100%;
+    background-image: url(https://www.eventize.com.br/wp-content/uploads/2019/12/19-11_qrcode_1200x627px.png);
+    background-size: cover;
+}
+
+.cardSub {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    width: 40%;
+    height: auto;
+    gap: 5px;
+    border-radius: 8px;
+    background-color: rgba(0, 0, 0, 0.396);
+    backdrop-filter: blur(2.1px);
+}
+.input-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    margin: 10px;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+.redesLogo{
+    gap: 5px;
+}
+.redesLogo img{
+    margin: 5px;
+    width: 30px;
+    height: 30px;
+}

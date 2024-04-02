@@ -1,0 +1,63 @@
+body{
+    display: flex;
+    margin: 0;
+}
+h3{
+    text-transform: capitalize;
+}
+.logosPalestrantes{
+    display: flex;
+    font-size: 16px;
+    gap: 5px;
+    margin: 5px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+.logosPalestrantes img{
+    width: 220px;
+    height: 180px;
+    object-fit:cover;
+}
+
+.card1{
+    width: auto;
+    height: auto;
+    background-color: rgb(233, 231, 231);
+    padding: 8px;
+    border-radius: 8px;
+}
+.card2{
+    width: auto;
+    height: auto;
+    background-color: rgb(233, 231, 231);
+    padding: 8px;
+    border-radius: 8px;
+}
+.card3{
+    width: auto;
+    height: auto;
+    background-color: rgb(233, 231, 231);
+    padding: 8px;
+    border-radius: 8px;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    align-items: center;
+}
+.cronogramaButton{
+    background-color: black;
+    color: white;
+    padding: 8px;
+    border-radius: 8px;
+    text-transform: uppercase;
+}
+.cronogramaButton:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    scale: 1.1;
+}
