@@ -2,11 +2,14 @@ body{
     display: flex;
     margin: 0;
 }
+.main{
+   background-color: rgb(249, 249, 249); 
+}
 .card{
     display: flex;
     flex-direction: column;
     text-align: center;
-    padding: 8px;
+    padding: 10px;
     align-items: center;
     font-size: large;
     width: auto;
@@ -42,4 +45,11 @@ img{
     color: black;
     cursor: pointer;
     scale: 1.1;
+}
+
+
+@media only screen and (max-width: 767px) {
+    .card {
+        max-width: 100%; 
+    }
 }
